@@ -1,0 +1,219 @@
+/*This is for the page's background. Need this for changing the colour of the backdrop and fonts and stuff*/
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #121212; 
+    color: #f0f0f0; 
+    line-height: 2;
+    border: 2px, #da1919
+}
+
+/*This is for the nav bar, the fanciest part of this website*/
+#page-selection {
+    position: fixed, top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 15px 30px;
+    background-color: #1c1c1c;
+    border-bottom: 2px solid #da1919;
+}
+/*The red throughout the website should follow the True/False color scheme, make it kinda blend*/
+#page-selection h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #da1919;
+    font-weight: 700;
+}
+
+#page-selection ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#page-selection ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#da1919;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+#page-selection ul li a:hover {
+    background-color:#da1919;
+    color: #161616;
+    transform: scale(1.05);
+}
+
+/* This is for the welcome page. It's fairly basic. */
+#welcome-page {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #1c1c1c; 
+    border-radius: 12px;
+    border-radius: #da1919;
+    border: 5px, #da1919;
+}
+
+#welcome-page h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: #da1919;
+    font-weight: 700;
+}
+
+#welcome-page h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#welcome-page p {
+    font-size: 18px;
+    color: #d4d4d4;
+}
+
+/* Style for the context box (needs fixing)*/
+#CARP-context {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 835px;
+    background-color: #1c1c1c;
+    border-radius: 12px;
+}
+
+#CARP-context .left {
+    flex: 1;
+}
+
+#CARP-context .left h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #da1919;
+}
+
+#CARP-context img {
+    flex: 0 0 40%;
+    max-width: 300px;
+    border-radius: 12px;
+}
+
+/* CARP content grid */
+#CARP-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 1200px;
+    background-color: #1c1c1b;
+    border-radius: 12px;
+}
+
+#CARP-content .image-box {
+    text-align: center;
+    padding: 25px;
+    background-color: #262626;
+    border-radius: 12px;
+}
+
+#CARP-content .image-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#CARP-content .image-box h1 {
+    margin-bottom: 15px;
+    color: #da1919;
+}
+
+/* Typography section */
+#Typography {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 25px;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 1200px;
+    background-color: #1c1c1b;
+    border-radius: 12px;
+}
+
+#Typography img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+#Typography p {
+    font-size: 18px;
+    color: #d4d4d4;
+}
+/*This should result in text left img right, and vice versa for the other part of this but it just doesn't want to work*/
+#Web-development {
+    display: block;
+    block-size: auto;
+    gap: 25px;
+    border: 2px solid #da1919;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 1500px;
+/*fixed it*/
+    background-color: #1c1c1b;
+    border-radius: 12px;
+}
+#Web-development h2{
+    color: #da1919;
+}
+
+#Web-development .image-box1,
+#Web-development .image-box2 {
+    text-align: left;
+    padding: 30px;
+    background-color: #1c1c1b;
+    border-radius: 12px;
+}
+
+#Web-development img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.image-box2 {
+    display: block;
+    block-size: auto;
+    gap: 25px;
+    border: 2px solid #da1919;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 1500px;
+    background-color: #1c1c1b;
+    border-radius: 12px;
+}
+
+/* Styling for Final conclusion parth */
+#conclusion {
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 1500px;
+    background-color: #1c1c1b;
+    border: 2px, solid #da1919;
+    border-radius: 15px;
+}
+
+#conclusion p {
+    font-size: 18px;
+    color: #d4d4d4;
+}
